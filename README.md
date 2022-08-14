@@ -41,3 +41,22 @@ A full list of arguments for this command can be found [here.]((https://github.c
 	"Tournament Region Label": "USE"
 }
 ```
+
+### brank_dump_errors
+
+This command does not take any arguments.
+
+**Example Usage:**
+
+`brank_dump_errors`
+
+**Example Output:**
+
+```
+AccountNotFound
+ServerNotFound
+ExpiredDsConnectToken
+MatchmakingNoInternet
+PartyRankDisparity
+...continued
+```
