@@ -17,9 +17,9 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 **Description:** This setting is used to control whether you want to display the texture browser feature.
 
 ### brank_thumbnailscale
-**Possible Arguments:** -1 to the maximum resolution your screen can display.
+**Possible Arguments:** -1 to the maximum resolution your screen can display, for example; `256 256` will render thumbnails at 256x256 resolution.
 
-**Description:** The scale multiplier to use when drawing product thumbnails, setting to -1 disables scaling.
+**Description:** The resolution scale to use when drawing product thumbnails, setting to -1 disables scaling.
 
 ## Commands
 
