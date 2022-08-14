@@ -1,10 +1,11 @@
-## Command Arguments
-| Export Format | Description |
+## Export Formats
+| Argument | Description |
 | ------ | ------ |
 | [CSV] | Dumps the command you're using in CSV format. |
 | [JSON] | Dumps the command you're using in JSON format. |
 
-| Slot Parameters | Output Example |
+## Product Slots
+| Argument | Output Example |
 | ------ | ------ |
 | slot_label | Body |
 | slot_plural_Label | Bodies |
@@ -12,7 +13,8 @@
 | slot_online_label | Body |
 | slot_index | 0 |
 
-| Online Product | Output Example |
+## Online/Inventory Products
+| Argument | Output Example |
 | ------ | ------ |
 | online_instance_id | 2039203868 |
 | online_series_id | 20 |
@@ -28,7 +30,8 @@
 | online_blueprint_type_id | 1 |
 | online_blueprint_type_label | Revealed |
 
-| Offline Product Parameters | Output Example |
+## Offline Products
+| Argument | Output Example |
 | ------ | ------ |
 | product_id | 1300 |
 | product_unlock_method_id | 1 |
@@ -59,7 +62,8 @@
 | product_thumbnail_asset | Skin_Octane_Esports_T |
 | product_trademark_label | RLCS |
 
-| Attribute | Output Example |
+## Product Attributes
+| Argument | Output Example |
 | ------ | ------ |
 | attribute_painted_id | 12 |
 | attribute_painted_name | White_00 |
@@ -82,7 +86,8 @@
 | attribute_team_label | NRG Esports |
 | attribute_blueprint_cost | 2000 |
 
-| Database | Output Example |
+## Internal Database
+| Argument | Output Example |
 | ------ | ------ |
 | database_paint_id | 1 |
 | database_paint_name | Red_00 |
@@ -108,7 +113,8 @@
 | database_series_id | 8 |
 | database_series_label | Player's Choice |
 
-| Playlist | Output Example |
+## Matchmaking Playlists
+| Arguments | Output Example |
 | ------ | ------ |
 | playlist_id | 3 |
 | playlist_title | Standard |
@@ -142,7 +148,8 @@
 | playlist_server_command | Game=TAGame.GameInfo_GodBall_TA?playtest?listen?Public?GameTags=BotsNone |
 | playlist_mapset_name | SoccarStandard |
 
-| Map | Output Example |
+### Stadium Maps
+| Argument | Output Example |
 | ------ | ------ |
 | map_weather_variant_id | 2 |
 | map_weather_variant_name | Day |
@@ -151,7 +158,8 @@
 | map_base_name | DFH Stadium |
 | map_file_name | stadium_day_p |
 
-| Esports | Output Example |
+### Esports Events
+| Argument | Output Example |
 | ------ | ------ |
 | esports_image | https://rl-cdn.psyonix.com/EsportsIcons/EsportsButtonIcon_FT1.png |
 | esports_title | FT |
@@ -162,13 +170,15 @@
 | esports_epoch_start_time | 1634064600 |
 | esports_epoch_end_time | 1634070600 |
 
-| Population | Output Example |
+### Player Populations
+| Argument | Output Example |
 | ------ | ------ |
 | population_total_players | 309815 |
 | population_playlist_id | 1 |
 | population_playlist_players | 4702 |
 
-| Tournament | Output Example |
+### Auto Tournaments
+| Argument | Output Example |
 | ------ | ------ |
 | tournament_id | 24610827 |
 | tournament_schedule_id | 11361 |
