@@ -4,7 +4,7 @@ A collection of features and tools free to use for developers and organizations 
 
 All information exported/dumped from this plugin can be found in the `bakkesmod\data\DeveloperTools` directory in either json, csv, or plain text format.
 
-## Settings
+# Settings
 
 ### brank_disable_replays
 **Possible Arguments:** 0 or 1, for false or true.
@@ -21,7 +21,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 
 **Description:** The resolution scale to use when drawing product thumbnails, setting to -1 disables scaling.
 
-## Commands
+# Commands
 
 ### brank_dump_tournaments
 
