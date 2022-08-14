@@ -1,7 +1,25 @@
 # DeveloperTools v1.0
-A collection of features/tools free to use for developers and organizations (BakkesMod Plugin).
+
+A collection of features and tools free to use for developers and organizations (BakkesMod Plugin).
+
+All information exported/dumped from this plugin can be found in the `bakkesmod\data\DeveloperTools` directory in either json, csv, or plain text format.
+
+## Settings
+
+### brank_disable_replays
+**Possible Arguments:** 0 or 1, for false or true.
+**Description:** When set to true, this will disable the advertisements around the stadium when viewing replays; this will only work for replay files and not any other offline or online mode.
+
+### brank_browsetextures
+**Possible Arguments:** 0 or 1, for false or true.
+**Description:** This setting is used to control whether you want to display the texture browser feature.
+
+### brank_thumbnailscale
+**Possible Arguments:** -1 to the maximum resolution your screen can display.
+**Description:** The scale multiplier to use when drawing product thumbnails, setting to -1 disables scaling.
 
 ## Commands
+
 ### brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.]((https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments))
