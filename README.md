@@ -7,9 +7,11 @@ A collection of features/tools free to use for developers and organizations (Bak
 A full list of arguments for this command can be found [here.]((https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments))
 
 **Example Usage:**
+
 `brank_dump_tournaments tournament_id tournament_title tournament_epoch_start_time tournament_region_label [JSON]`
 
 **Example Output:**
+
 ```json
 {
 	"Tournament Id": "24610827",
