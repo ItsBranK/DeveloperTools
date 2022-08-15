@@ -285,6 +285,44 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_functions
+
+This command does not take any arguments.
+
+**Example Usage:**
+
+`brank_dump_functions`
+
+**Example Output:**
+
+```
+Function Core.Object.RSmoothInterpTo
+Function Core.Object.VSmoothInterpTo
+Function Core.Object.GetSmoothInterpLerpValue
+Function Core.Object.FSmoothInterpTo
+Function Core.Object.VLerp
+...continued
+```
+
+### > brank_dump_textures
+
+This command does not take any arguments.
+
+**Example Usage:**
+
+`brank_dump_textures`
+
+**Example Output:**
+
+```
+Texture2D EngineResources.WhiteSquareTexture
+Texture2D EngineResources.DefaultTexture
+TextureCube EngineResources.DefaultTextureCube
+Texture2D EngineMaterials.DefaultNormal
+Texture2D EngineMaterials.DefaultDiffuse
+...continued
+```
+
 ### > brank_dump_errors
 
 This command does not take any arguments.
