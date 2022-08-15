@@ -61,6 +61,26 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_inventory
+
+A full list of arguments for this command can be found [here](brank_dump_inventory), this command also accepts the same arguments as the [brank_dump_products ](https://github.com/ItsBranK/DeveloperTools/blob/main/README.md#-brank_dump_products) command.
+
+**Example Usage:**
+
+`brank_dump_inventory product_id product_long_label online_instance_id online_added_timestamp online_trade_hold [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Product Id": 1300,
+	"Product Long Label": "Octane: RLCS",
+	"Online Instance Id": "2033203160",
+	"Online Added Timestamp": "1509241699",
+	"Online Trade Hold": [ "None" ]
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
