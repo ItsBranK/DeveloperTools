@@ -41,9 +41,29 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_products
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#offline-products)
+
+**Example Usage:**
+
+`brank_dump_products product_id product_long_label product_quality_label product_bool_paintable product_trade_restrictions [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Product Id": 1300,
+	"Product Long Label": "Octane: RLCS",
+	"Product Quality Label": "Limited",
+	"Product Paintable": false,
+	"Product Trade Restrictions": [ "TradeIn" ]
+}
+```
+
 ### > brank_dump_tournaments
 
-A full list of arguments for this command can be found [here.]((https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments))
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
 
 **Example Usage:**
 
