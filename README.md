@@ -9,7 +9,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 ### > brank_browsetextures
 **Possible Arguments:** 0 or 1, for false or true.
 
-**Description:** This setting is used to control whether you want to display the texture browser feature.
+**Description:** This setting is used to control whether you want to display the texture browser feature. Please see [here](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures-1) on how to use the texture browser.
 
 ### > brank_thumbnailscale
 **Possible Arguments:** -1 to the maximum resolution your screen can display, for example; `256 256` will render thumbnails at 256x256 resolution.
