@@ -23,6 +23,24 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 
 # Commands
 
+### > brank_dump_slots
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#product-slots)
+
+**Example Usage:**
+
+`brank_dump_slots slot_online_label slot_description slot_index [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Slot Online Label": "Body",
+	"Slot Description": "Completely change your vehicle's style with a new body!",
+	"Slot Index": 0
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.]((https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments))
