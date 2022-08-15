@@ -118,6 +118,24 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_specialeditions
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+
+**Example Usage:**
+
+`brank_dump_specialeditions database_special_id database_special_label database_special_name [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Special Database Id": 1,
+	"Special Database Label": "Holographic",
+	"Special Database Name": "Edition_Holographic"
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
