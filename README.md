@@ -228,6 +228,44 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_esports
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#esports-events)
+
+**Example Usage:**
+
+`brank_dump_esports esports_title esports_description esports_epoch_start_time esports_epoch_end_time esports_url [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Esports Title": "FT",
+	"Esports Description": "FT Show",
+	"Esports Epoch Start Time": "1634064600",
+	"Esports Epoch End Time": "1634070600",
+	"Esports Url": "https://www.twitch.tv/rocketleague"
+}
+```
+
+### > brank_dump_population
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#player-populations)
+
+**Example Usage:**
+
+`brank_dump_population [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Population Total Players": 309815,
+	"Population Playlist Id": 1,
+	"Population Playlist Players": 4702
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
