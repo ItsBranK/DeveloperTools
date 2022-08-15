@@ -12,6 +12,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
     - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetexturest)
     - [brank_thumbnailscale](https://github.com/ItsBranK/DeveloperTools#-brank_thumbnailscale)
     - [brank_disable_replays](https://github.com/ItsBranK/DeveloperTools#-brank_disable_replays)
+
 - [Texture Commands](https://github.com/ItsBranK/DeveloperTools#texture-commands)
     - [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools#-brank_drawtexture)
     - [brank_drawthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_drawthumbnail)
@@ -19,6 +20,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
     - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures-1)
     - [brank_exportthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_exportthumbnail)
     - [brank_exporttexture](https://github.com/ItsBranK/DeveloperTools#-brank_exporttexture)
+
 - [Dump/Export Commands](https://github.com/ItsBranK/DeveloperTools#dumpexport-commands)
     - [brank_dump_functions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_functions)
     - [brank_dump_textures](https://github.com/ItsBranK/DeveloperTools#-brank_dump_textures)
