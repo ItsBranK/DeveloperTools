@@ -55,6 +55,38 @@ This command stops/erases any texture on the screen that is currently being draw
 
 `brank_erasetexture`
 
+### > brank_browsetextures
+
+This command allows you to browse all textures currently loaded in the scene, you can use either the scroll wheel or the arrow keys to browse through them all.
+
+**Example Usage:**
+
+`brank_browsetextures 1`
+
+**Example Output:**
+
+![](https://i.imgur.com/bLl7vxp.png)
+
+### > brank_exportthumbnail
+
+This is an experimental command and may not work as intended!
+
+This command attempts to export a products thumbnail texture to a dds file.
+
+**Example Usage:**
+
+`brank_exportthumbnail 32`
+
+### > brank_exporttexture
+
+This is an experimental command and may not work as intended!
+
+This command attempts to export a texture to a dds file by its name, it takes the same arguments as the `brank_drawtexture` command.
+
+**Example Usage:**
+
+`brank_exporttexture Engine`
+
 # Dump/Export Commands
 
 ### > brank_dump_slots
