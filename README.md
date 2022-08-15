@@ -19,7 +19,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
     - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures-1)
     - [brank_exportthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_exportthumbnail)
     - [brank_exporttexture](https://github.com/ItsBranK/DeveloperTools#-brank_exporttexture)
-- [Dump/ExportCommands](https://github.com/ItsBranK/DeveloperTools#dumpexport-commands)
+- [Dump/Export Commands](https://github.com/ItsBranK/DeveloperTools#dumpexport-commands)
     - [brank_dump_functions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_functions)
     - [brank_dump_textures](https://github.com/ItsBranK/DeveloperTools#-brank_dump_textures)
     - [brank_dump_errors](https://github.com/ItsBranK/DeveloperTools#-brank_dump_errors)
