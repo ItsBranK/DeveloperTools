@@ -4,6 +4,25 @@ A collection of features and tools free to use for developers and organizations 
 
 All information exported/dumped from this plugin can be found in the `bakkesmod\data\DeveloperTools` directory in either json, csv, or plain text format.
 
+# Table of Contents
+
+<!-- TOC -->
+
+- [Settings](#settings)
+    - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetexturest)
+    - [brank_thumbnailscale](https://github.com/ItsBranK/DeveloperTools#-brank_thumbnailscale)
+    - [brank_disable_replays](https://github.com/ItsBranK/DeveloperTools#-brank_disable_replays)
+- [Texture Commands](https://github.com/ItsBranK/DeveloperTools#texture-commands)
+    - [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools#-brank_drawtexture)
+    - [brank_drawthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_drawthumbnail)
+    - [brank_erasetexture](https://github.com/ItsBranK/DeveloperTools#-brank_erasetexture)
+    - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures-1)
+    - [brank_exportthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_exportthumbnail)
+    - [brank_exporttexture](https://github.com/ItsBranK/DeveloperTools#-brank_exporttexture)
+- [Dump/ExportCommands](https://github.com/ItsBranK/DeveloperTools#dumpexport-commands)
+- 
+<!-- /TOC -->
+
 # Settings
 
 ### > brank_browsetextures
