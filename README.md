@@ -6,11 +6,6 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 
 # Settings
 
-### > brank_disable_replays
-**Possible Arguments:** 0 or 1, for false or true.
-
-**Description:** When set to true, this will disable the advertisements around the stadium when viewing replays; this will only work for replay files and not any other offline or online mode.
-
 ### > brank_browsetextures
 **Possible Arguments:** 0 or 1, for false or true.
 
@@ -20,6 +15,11 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 **Possible Arguments:** -1 to the maximum resolution your screen can display, for example; `256 256` will render thumbnails at 256x256 resolution.
 
 **Description:** The resolution scale to use when drawing product thumbnails, setting to -1 disables scaling.
+
+### > brank_disable_replays
+**Possible Arguments:** 0 or 1, for false or true.
+
+**Description:** When set to true, this will disable the advertisements around the stadium when viewing replays; this will only work for replay files and not any other offline or online mode.
 
 # Commands
 
