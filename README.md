@@ -190,6 +190,44 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_playlists
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#matchmaking-playlists)
+
+**Example Usage:**
+
+`brank_dump_playlists playlist_id playlist_title playlist_description playlist_player_count [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Playlist Id": 3,
+	"Playlist Title": "Standard",
+	"Playlist Description": "Ranked play with a team",
+	"Playlist Player Count": 6
+}
+```
+
+### > brank_dump_maps
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#stadium-maps)
+
+**Example Usage:**
+
+`brank_dump_maps map_base_name map_file_name map_variant_name map_random_weight [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Map Base Name": "DFH Stadium",
+	"Map File Name": "stadium_day_p",
+	"Map Variant Name": "Day",
+	"Map Random Weight": 1.300000
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
