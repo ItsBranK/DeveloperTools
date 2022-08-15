@@ -20,7 +20,22 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
     - [brank_exportthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_exportthumbnail)
     - [brank_exporttexture](https://github.com/ItsBranK/DeveloperTools#-brank_exporttexture)
 - [Dump/ExportCommands](https://github.com/ItsBranK/DeveloperTools#dumpexport-commands)
-- 
+    - [brank_dump_functions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_functions)
+    - [brank_dump_textures](https://github.com/ItsBranK/DeveloperTools#-brank_dump_textures)
+    - [brank_dump_errors](https://github.com/ItsBranK/DeveloperTools#-brank_dump_errors)
+    - [brank_dump_slots](https://github.com/ItsBranK/DeveloperTools#-brank_dump_slots)
+    - [brank_dump_products](https://github.com/ItsBranK/DeveloperTools#-brank_dump_products)
+    - [brank_dump_inventory](https://github.com/ItsBranK/DeveloperTools#-brank_dump_inventory)
+    - [brank_dump_paints](https://github.com/ItsBranK/DeveloperTools#-brank_dump_paints)
+    - [brank_dump_certifications](https://github.com/ItsBranK/DeveloperTools#-brank_dump_certifications)
+    - [brank_dump_specialeditions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_specialeditions)
+    - [brank_dump_titles](https://github.com/ItsBranK/DeveloperTools#-brank_dump_titles)
+    - [brank_dump_teameditions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_teameditions)
+    - [brank_dump_playlists](https://github.com/ItsBranK/DeveloperTools#-brank_dump_playlists)
+    - [brank_dump_maps](https://github.com/ItsBranK/DeveloperTools#-brank_dump_maps)
+    - [brank_dump_esports](https://github.com/ItsBranK/DeveloperTools#-brank_dump_esports)
+    - [brank_dump_population](https://github.com/ItsBranK/DeveloperTools#-brank_dump_population)
+    - [brank_dump_tournaments](https://github.com/ItsBranK/DeveloperTools#-brank_dump_tournaments)
 <!-- /TOC -->
 
 # Settings
@@ -107,6 +122,63 @@ This command attempts to export a texture to a dds file by its name, it takes th
 `brank_exporttexture Engine`
 
 # Dump/Export Commands
+
+### > brank_dump_functions
+
+This command does not take any arguments.
+
+**Example Usage:**
+
+`brank_dump_functions`
+
+**Example Output:**
+
+```
+Function Core.Object.RSmoothInterpTo
+Function Core.Object.VSmoothInterpTo
+Function Core.Object.GetSmoothInterpLerpValue
+Function Core.Object.FSmoothInterpTo
+Function Core.Object.VLerp
+...continued
+```
+
+### > brank_dump_textures
+
+This command does not take any arguments.
+
+**Example Usage:**
+
+`brank_dump_textures`
+
+**Example Output:**
+
+```
+Texture2D EngineResources.WhiteSquareTexture
+Texture2D EngineResources.DefaultTexture
+TextureCube EngineResources.DefaultTextureCube
+Texture2D EngineMaterials.DefaultNormal
+Texture2D EngineMaterials.DefaultDiffuse
+...continued
+```
+
+### > brank_dump_errors
+
+This command does not take any arguments.
+
+**Example Usage:**
+
+`brank_dump_errors`
+
+**Example Output:**
+
+```
+AccountNotFound
+ServerNotFound
+ExpiredDsConnectToken
+MatchmakingNoInternet
+PartyRankDisparity
+...continued
+```
 
 ### > brank_dump_slots
 
@@ -368,61 +440,4 @@ A full list of arguments for this command can be found [here.](https://github.co
 	"Tournament Epoch Start Time": "1660248000",
 	"Tournament Region Label": "USE"
 }
-```
-
-### > brank_dump_functions
-
-This command does not take any arguments.
-
-**Example Usage:**
-
-`brank_dump_functions`
-
-**Example Output:**
-
-```
-Function Core.Object.RSmoothInterpTo
-Function Core.Object.VSmoothInterpTo
-Function Core.Object.GetSmoothInterpLerpValue
-Function Core.Object.FSmoothInterpTo
-Function Core.Object.VLerp
-...continued
-```
-
-### > brank_dump_textures
-
-This command does not take any arguments.
-
-**Example Usage:**
-
-`brank_dump_textures`
-
-**Example Output:**
-
-```
-Texture2D EngineResources.WhiteSquareTexture
-Texture2D EngineResources.DefaultTexture
-TextureCube EngineResources.DefaultTextureCube
-Texture2D EngineMaterials.DefaultNormal
-Texture2D EngineMaterials.DefaultDiffuse
-...continued
-```
-
-### > brank_dump_errors
-
-This command does not take any arguments.
-
-**Example Usage:**
-
-`brank_dump_errors`
-
-**Example Output:**
-
-```
-AccountNotFound
-ServerNotFound
-ExpiredDsConnectToken
-MatchmakingNoInternet
-PartyRankDisparity
-...continued
 ```
