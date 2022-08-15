@@ -13,23 +13,6 @@
 | slot_online_label | Body |
 | slot_index | 0 |
 
-## Online/Inventory Products
-| Argument | Output Example |
-| ------ | ------ |
-| online_instance_id | 2039203868 |
-| online_series_id | 20 |
-| online_bool_tradable | false |
-| online_trade_hold | None, All, P2P |
-| online_added_timestamp | 1509241699 |
-| online_cached_sort_label | Vampire Bat	CertifiedTurtle0102039203868 |
-| online_cached_short_sort_label | None |
-| online_cached_hash_id | 60729611 |
-| online_attribute_string | CertifiedTurtleGoals1: |
-| online_blueprint_series_id | 48 |
-| online_blueprint_series_label | Revival |
-| online_blueprint_type_id | 1 |
-| online_blueprint_type_label | Revealed |
-
 ## Offline Products
 | Argument | Output Example |
 | ------ | ------ |
@@ -61,6 +44,23 @@
 | product_thumbnail_package | Skin_Octane_Esports_T |
 | product_thumbnail_asset | Skin_Octane_Esports_T |
 | product_trademark_label | RLCS |
+
+## Online/Inventory Products
+| Argument | Output Example |
+| ------ | ------ |
+| online_instance_id | 2039203868 |
+| online_series_id | 20 |
+| online_bool_tradable | false |
+| online_trade_hold | None, All, P2P |
+| online_added_timestamp | 1509241699 |
+| online_cached_sort_label | Vampire Bat	CertifiedTurtle0102039203868 |
+| online_cached_short_sort_label | None |
+| online_cached_hash_id | 60729611 |
+| online_attribute_string | CertifiedTurtleGoals1: |
+| online_blueprint_series_id | 48 |
+| online_blueprint_series_label | Revival |
+| online_blueprint_type_id | 1 |
+| online_blueprint_type_label | Revealed |
 
 ## Product Attributes
 | Argument | Output Example |
