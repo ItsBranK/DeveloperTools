@@ -21,7 +21,41 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 
 **Description:** When set to true, this will disable the advertisements around the stadium when viewing replays; this will only work for replay files and not any other offline or online mode.
 
-# Commands
+# Texture Commands
+
+### > brank_drawtexture
+
+This command draws a texture to the screen based on its name.
+
+**Example Usage:**
+
+`brank_drawtexture Noise_Fire`
+
+**Example Output:**
+
+![](https://i.imgur.com/f0FZKSW.png/)
+
+### > brank_drawthumbnail
+
+This command draws a product thumbnail to the screen based on its product id.
+
+**Example Usage:**
+
+`brank_drawthumbnail 32`
+
+**Example Output:**
+
+![](https://i.imgur.com/y2i4r7k.png/)
+
+### > brank_erasetexture
+
+This command stops/erases any texture on the screen that is currently being drawn by the commands `brank_drawtexture` and `brank_drawthumbnail`.
+
+**Example Usage:**
+
+`brank_erasetexture`
+
+# Dump/Export Commands
 
 ### > brank_dump_slots
 
