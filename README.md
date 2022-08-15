@@ -173,6 +173,23 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_series
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+
+**Example Usage:**
+
+`brank_dump_series database_series_id database_series_label [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Database Series Id": 8,
+	"Database Series Label": "Player's Choice"
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
