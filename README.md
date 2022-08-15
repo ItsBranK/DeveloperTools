@@ -155,6 +155,24 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_teameditions
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+
+**Example Usage:**
+
+`brank_dump_teameditions database_team_id database_team_label database_team_name [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Team Database Id": 26,
+	"Team Database Label": "NRG Esports",
+	"Team Database Name": "NRG_Season8"
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
