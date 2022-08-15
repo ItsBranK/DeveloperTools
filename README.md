@@ -49,7 +49,7 @@ This command draws a product thumbnail to the screen based on its product id.
 
 ### > brank_erasetexture
 
-This command stops/erases any texture on the screen that is currently being drawn by the commands `brank_drawtexture` and `brank_drawthumbnail`.
+This command stops/erases any texture on the screen that is currently being drawn by the commands [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools/blob/main/README.md#-brank_drawtexture) and [brank_drawthumbnail.](https://github.com/ItsBranK/DeveloperTools#-brank_drawthumbnail)
 
 **Example Usage:**
 
@@ -81,7 +81,7 @@ This command attempts to export a products thumbnail texture to a dds file.
 
 This is an experimental command and may not work as intended!
 
-This command attempts to export a texture to a dds file by its name, it takes the same arguments as the `brank_drawtexture` command.
+This command attempts to export a texture to a dds file by its name, it takes the same arguments as the [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools/blob/main/README.md#-brank_drawtexture) command.
 
 **Example Usage:**
 
