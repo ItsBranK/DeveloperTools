@@ -136,6 +136,25 @@ A full list of arguments for this command can be found [here.](https://github.co
 }
 ```
 
+### > brank_dump_titles
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+
+**Example Usage:**
+
+`brank_dump_titles database_title_id database_title_text database_title_color database_title_glowcolor [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Title Database Id": "S15_SuperSonic_Legend",
+	"Title Database Text": "S1 Supersonic Legend",
+	"Title Database Color": "#E8E8E8",
+	"Title Database Glow": "#E8E8E8"
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
