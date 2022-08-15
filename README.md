@@ -81,6 +81,43 @@ A full list of arguments for this command can be found [here](brank_dump_invento
 }
 ```
 
+### > brank_dump_paints
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+
+**Example Usage:**
+
+`brank_dump_paints database_paint_id database_paint_label database_paint_name database_paint_colors [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Paint Database Id": 1,
+	"Paint Database Label": "Crimson",
+	"Paint Database Name": "Red_00",
+	"Paint Database Colors": [ "#990000", "#FF0B0B", "#720000", "#FF0000" ]
+}
+```
+
+### > brank_dump_certifications
+
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+
+**Example Usage:**
+
+`brank_dump_certifications database_certified_id database_certified_label database_certified_description [JSON]`
+
+**Example Output:**
+
+```json
+{
+	"Certified Database Id": 1,
+	"Certified Database Label": "Aviator",
+	"Certified Database Description": "When equipped in an online match, this item keeps track of how many aerial goals you score."
+}
+```
+
 ### > brank_dump_tournaments
 
 A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
