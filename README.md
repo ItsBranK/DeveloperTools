@@ -1,4 +1,4 @@
-# DeveloperTools v1.0
+# ItsBranK's Developer Tools
 
 A collection of features and tools free to use for developers and organizations (BakkesMod Plugin).
 
