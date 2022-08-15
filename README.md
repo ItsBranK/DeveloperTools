@@ -77,7 +77,7 @@ A full list of arguments for this command can be found [here](brank_dump_invento
 	"Product Long Label": "Octane: RLCS",
 	"Online Instance Id": "2033203160",
 	"Online Added Timestamp": "1509241699",
-	"Online Trade Hold": [ "None" ]
+	"Online Trade Hold": "P2P"
 }
 ```
 
