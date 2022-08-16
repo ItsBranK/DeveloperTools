@@ -9,35 +9,35 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 <!-- TOC -->
 
 - [Settings](#settings)
-    - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures)
-    - [brank_thumbnailscale](https://github.com/ItsBranK/DeveloperTools#-brank_thumbnailscale)
-    - [brank_disable_replays](https://github.com/ItsBranK/DeveloperTools#-brank_disable_replays)
+    - [brank_browsetextures](#-brank_browsetextures)
+    - [brank_thumbnailscale](#-brank_thumbnailscale)
+    - [brank_disable_replays](#-brank_disable_replays)
 
-- [Texture Commands](https://github.com/ItsBranK/DeveloperTools#texture-commands)
-    - [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools#-brank_drawtexture)
-    - [brank_drawthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_drawthumbnail)
-    - [brank_erasetexture](https://github.com/ItsBranK/DeveloperTools#-brank_erasetexture)
-    - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures-1)
-    - [brank_exportthumbnail](https://github.com/ItsBranK/DeveloperTools#-brank_exportthumbnail)
-    - [brank_exporttexture](https://github.com/ItsBranK/DeveloperTools#-brank_exporttexture)
+- [Texture Commands](#texture-commands)
+    - [brank_drawtexture](#-brank_drawtexture)
+    - [brank_drawthumbnail](#-brank_drawthumbnail)
+    - [brank_erasetexture](#-brank_erasetexture)
+    - [brank_browsetextures](#-brank_browsetextures-1)
+    - [brank_exportthumbnail](#-brank_exportthumbnail)
+    - [brank_exporttexture](#-brank_exporttexture)
 
-- [Dump/Export Commands](https://github.com/ItsBranK/DeveloperTools#dumpexport-commands)
-    - [brank_dump_functions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_functions)
-    - [brank_dump_textures](https://github.com/ItsBranK/DeveloperTools#-brank_dump_textures)
-    - [brank_dump_errors](https://github.com/ItsBranK/DeveloperTools#-brank_dump_errors)
-    - [brank_dump_slots](https://github.com/ItsBranK/DeveloperTools#-brank_dump_slots)
-    - [brank_dump_products](https://github.com/ItsBranK/DeveloperTools#-brank_dump_products)
-    - [brank_dump_inventory](https://github.com/ItsBranK/DeveloperTools#-brank_dump_inventory)
-    - [brank_dump_paints](https://github.com/ItsBranK/DeveloperTools#-brank_dump_paints)
-    - [brank_dump_certifications](https://github.com/ItsBranK/DeveloperTools#-brank_dump_certifications)
-    - [brank_dump_specialeditions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_specialeditions)
-    - [brank_dump_titles](https://github.com/ItsBranK/DeveloperTools#-brank_dump_titles)
-    - [brank_dump_teameditions](https://github.com/ItsBranK/DeveloperTools#-brank_dump_teameditions)
-    - [brank_dump_playlists](https://github.com/ItsBranK/DeveloperTools#-brank_dump_playlists)
-    - [brank_dump_maps](https://github.com/ItsBranK/DeveloperTools#-brank_dump_maps)
-    - [brank_dump_esports](https://github.com/ItsBranK/DeveloperTools#-brank_dump_esports)
-    - [brank_dump_population](https://github.com/ItsBranK/DeveloperTools#-brank_dump_population)
-    - [brank_dump_tournaments](https://github.com/ItsBranK/DeveloperTools#-brank_dump_tournaments)
+- [Dump/Export Commands](#dumpexport-commands)
+    - [brank_dump_functions](#-brank_dump_functions)
+    - [brank_dump_textures](#-brank_dump_textures)
+    - [brank_dump_errors](#-brank_dump_errors)
+    - [brank_dump_slots](#-brank_dump_slots)
+    - [brank_dump_products](#-brank_dump_products)
+    - [brank_dump_inventory](#-brank_dump_inventory)
+    - [brank_dump_paints](#-brank_dump_paints)
+    - [brank_dump_certifications](#-brank_dump_certifications)
+    - [brank_dump_specialeditions](#-brank_dump_specialeditions)
+    - [brank_dump_titles](#-brank_dump_titles)
+    - [brank_dump_teameditions](#-brank_dump_teameditions)
+    - [brank_dump_playlists](#-brank_dump_playlists)
+    - [brank_dump_maps](#-brank_dump_maps)
+    - [brank_dump_esports](#-brank_dump_esports)
+    - [brank_dump_population](#-brank_dump_population)
+    - [brank_dump_tournaments](#-brank_dump_tournaments)
 <!-- /TOC -->
 
 # Settings
@@ -45,7 +45,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 ### > brank_browsetextures
 **Possible Arguments:** 0 or 1, for false or true.
 
-**Description:** This setting is used to control whether you want to display the texture browser feature. Please see [here](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures-1) on how to use the texture browser.
+**Description:** This setting is used to control whether you want to display the texture browser feature. Please see [here](#-brank_browsetextures-1) on how to use the texture browser.
 
 ### > brank_thumbnailscale
 **Possible Arguments:** -1 to the maximum resolution your screen can display.
@@ -85,7 +85,7 @@ This command draws a product thumbnail to the screen based on its product id.
 
 ### > brank_erasetexture
 
-This command stops/erases any texture on the screen that is currently being drawn by the commands [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools/blob/main/README.md#-brank_drawtexture) and [brank_drawthumbnail.](https://github.com/ItsBranK/DeveloperTools#-brank_drawthumbnail)
+This command stops/erases any texture on the screen that is currently being drawn by the commands [brank_drawtexture](/blob/main/README.md#-brank_drawtexture) and [brank_drawthumbnail.](#-brank_drawthumbnail)
 
 **Example Usage:**
 
@@ -117,7 +117,7 @@ This command attempts to export a products thumbnail texture to a dds file.
 
 This is an experimental command and may not work as intended!
 
-This command attempts to export a texture to a dds file by its name, it takes the same arguments as the [brank_drawtexture](https://github.com/ItsBranK/DeveloperTools/blob/main/README.md#-brank_drawtexture) command.
+This command attempts to export a texture to a dds file by its name, it takes the same arguments as the [brank_drawtexture](/blob/main/README.md#-brank_drawtexture) command.
 
 **Example Usage:**
 
@@ -184,7 +184,7 @@ PartyRankDisparity
 
 ### > brank_dump_slots
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#product-slots)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#product-slots)
 
 **Example Usage:**
 
@@ -202,7 +202,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_products
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#offline-products)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#offline-products)
 
 **Example Usage:**
 
@@ -222,7 +222,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_inventory
 
-A full list of arguments for this command can be found [here](brank_dump_inventory), this command also accepts the same arguments as the [brank_dump_products ](https://github.com/ItsBranK/DeveloperTools/blob/main/README.md#-brank_dump_products) command.
+A full list of arguments for this command can be found [here](brank_dump_inventory), this command also accepts the same arguments as the [brank_dump_products ](/blob/main/README.md#-brank_dump_products) command.
 
 **Example Usage:**
 
@@ -242,7 +242,7 @@ A full list of arguments for this command can be found [here](brank_dump_invento
 
 ### > brank_dump_paints
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -261,7 +261,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_certifications
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -279,7 +279,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_specialeditions
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -297,7 +297,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_titles
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -316,7 +316,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_teameditions
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -334,7 +334,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_series
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -351,7 +351,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_playlists
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#matchmaking-playlists)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#matchmaking-playlists)
 
 **Example Usage:**
 
@@ -370,7 +370,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_maps
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#stadium-maps)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#stadium-maps)
 
 **Example Usage:**
 
@@ -389,7 +389,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_esports
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#esports-events)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#esports-events)
 
 **Example Usage:**
 
@@ -409,7 +409,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_population
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#player-populations)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#player-populations)
 
 **Example Usage:**
 
@@ -427,7 +427,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_tournaments
 
-A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
+A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#auto-tournaments)
 
 **Example Usage:**
 
