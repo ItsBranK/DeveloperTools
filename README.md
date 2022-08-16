@@ -9,7 +9,7 @@ All information exported/dumped from this plugin can be found in the `bakkesmod\
 <!-- TOC -->
 
 - [Settings](#settings)
-    - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetexturest)
+    - [brank_browsetextures](https://github.com/ItsBranK/DeveloperTools#-brank_browsetextures)
     - [brank_thumbnailscale](https://github.com/ItsBranK/DeveloperTools#-brank_thumbnailscale)
     - [brank_disable_replays](https://github.com/ItsBranK/DeveloperTools#-brank_disable_replays)
 
