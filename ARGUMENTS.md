@@ -31,7 +31,8 @@
 | product_bool_blueprint | false |
 | product_bool_schematic | false |
 | product_bool_decryptor | false |
-| product_trade_restrictions | None, P2P, TradeIn |
+| product_platform_exclusives | false |
+| product_trade_restrictions | PS3, Dingo |
 | product_asset_package | skin_octane_esports |
 | product_asset_path | skin_octane_esports.skin_octane_esports |
 | product_label | RLCS |
