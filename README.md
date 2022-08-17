@@ -184,7 +184,7 @@ PartyRankDisparity
 
 ### > brank_dump_slots
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#product-slots)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#product-slots)
 
 **Example Usage:**
 
@@ -202,7 +202,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_products
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#offline-products)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#offline-products)
 
 **Example Usage:**
 
@@ -242,7 +242,7 @@ A full list of arguments for this command can be found [here](brank_dump_invento
 
 ### > brank_dump_paints
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -261,7 +261,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_certifications
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -279,7 +279,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_specialeditions
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -297,7 +297,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_titles
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -316,7 +316,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_teameditions
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -334,7 +334,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_series
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#internal-database)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#internal-database)
 
 **Example Usage:**
 
@@ -351,7 +351,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_playlists
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#matchmaking-playlists)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#matchmaking-playlists)
 
 **Example Usage:**
 
@@ -370,7 +370,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_maps
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#stadium-maps)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#stadium-maps)
 
 **Example Usage:**
 
@@ -389,7 +389,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_esports
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#esports-events)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#esports-events)
 
 **Example Usage:**
 
@@ -409,7 +409,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_population
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#player-populations)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#player-populations)
 
 **Example Usage:**
 
@@ -427,7 +427,7 @@ A full list of arguments for this command can be found [here.](/blob/main/ARGUME
 
 ### > brank_dump_tournaments
 
-A full list of arguments for this command can be found [here.](/blob/main/ARGUMENTS.md#auto-tournaments)
+A full list of arguments for this command can be found [here.](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#auto-tournaments)
 
 **Example Usage:**
 
