@@ -50,7 +50,7 @@
 | Argument | Output Example |
 | ------ | ------ |
 | online_instance_id | 2039203868 |
-| online_instance_id_128 | 8683029302-2039203868 |
+| online_instance_id_128 | 8683029302, 2039203868 |
 | online_series_id | 20 |
 | online_bool_tradable | false |
 | online_trade_hold | None, All, P2P |
