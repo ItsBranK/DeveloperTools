@@ -150,6 +150,7 @@
 | playlist_map_name | throwbackhockey_p |
 | playlist_server_command | Game=TAGame.GameInfo_GodBall_TA?playtest?listen?Public?GameTags=BotsNone |
 | playlist_mapset_name | SoccarStandard |
+| playlist_population_buckets | 1, 15000, 35000 |
 
 ### Stadium Maps
 | Argument | Output Example |
