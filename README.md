@@ -4,6 +4,10 @@ A collection of features and tools free to use for developers and organizations 
 
 All information exported/dumped from this plugin can be found in the `bakkesmod\data\DeveloperTools` directory in either json, csv, or plain text format.
 
+# Issues & Feedback
+
+If you found a bug, problem, or want to suggest a feature; please do so by creating [a new issue here.](https://github.com/ItsBranK/DeveloperTools/issues)
+
 # Table of Contents
 
 <!-- TOC -->
