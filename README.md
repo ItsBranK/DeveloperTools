@@ -1,3 +1,4 @@
+
 # ItsBranK's Developer Tools
 
 A collection of features and tools free to use for developers and organizations (BakkesMod Plugin).
@@ -23,9 +24,8 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
     - [brank_erasetexture](#-brank_erasetexture)
     - [brank_browsetextures](#-brank_browsetextures-1)
     - [brank_exportthumbnail](#-brank_exportthumbnail)
-    - [brank_exporttexture](#-brank_exporttexture)
 
-- [Dump/Export Commands](#dumpexport-commands)
+- [Dump Commands](#dumpexport-commands)
     - [brank_dump_functions](#-brank_dump_functions)
     - [brank_dump_textures](#-brank_dump_textures)
     - [brank_dump_errors](#-brank_dump_errors)
@@ -117,17 +117,7 @@ This command attempts to export a products thumbnail texture to a dds file.
 
 `brank_exportthumbnail 32`
 
-### > brank_exporttexture
-
-This is an experimental command and may not work as intended!
-
-This command attempts to export a texture to a dds file by its name, it takes the same arguments as the [brank_drawtexture](/blob/main/README.md#-brank_drawtexture) command.
-
-**Example Usage:**
-
-`brank_exporttexture Engine`
-
-# Dump/Export Commands
+# Dump Commands
 
 ### > brank_dump_functions
 
