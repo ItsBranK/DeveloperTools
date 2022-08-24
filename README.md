@@ -23,7 +23,6 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
     - [brank_drawthumbnail](#-brank_drawthumbnail)
     - [brank_erasetexture](#-brank_erasetexture)
     - [brank_browsetextures](#-brank_browsetextures-1)
-    - [brank_exportthumbnail](#-brank_exportthumbnail)
 
 - [Dump Commands](#dumpexport-commands)
     - [brank_dump_functions](#-brank_dump_functions)
@@ -106,16 +105,6 @@ This command allows you to browse all textures currently loaded in the scene, yo
 **Example Output:**
 
 ![](https://i.imgur.com/bLl7vxp.png)
-
-### > brank_exportthumbnail
-
-This is an experimental command and may not work as intended!
-
-This command attempts to export a products thumbnail texture to a dds file.
-
-**Example Usage:**
-
-`brank_exportthumbnail 32`
 
 # Dump Commands
 
