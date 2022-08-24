@@ -12,6 +12,14 @@
 | slot_description | Completely change your vehicle's style with a new body! |
 | slot_online_label | Body |
 | slot_index | 0 |
+| slot_bool_replicated | true |
+| slot_bool_always_cooked | false |
+| slot_bool_server_relevant | true |
+| slot_bool_always_loaded | true |
+| slot_bool_default_always_loaded | false |
+| slot_bool_allow_license_equip | false |
+| slot_drop_weight | 30.000000 |
+| slot_default_product_id | 23 |
 
 ## Offline Products
 | Argument | Output Example |
