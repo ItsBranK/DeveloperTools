@@ -130,6 +130,7 @@
 | playlist_id | 3 |
 | playlist_title | Standard |
 | playlist_description | Ranked play with a team |
+| playlist_badge_title | |
 | playlist_player_count | 6 |
 | playlist_bool_standard | true |
 | playlist_bool_ranked | false |
