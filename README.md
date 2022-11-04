@@ -1,4 +1,5 @@
 
+
 # ItsBranK's Developer Tools
 
 A collection of features and tools free to use for developers and organizations (BakkesMod Plugin).
@@ -21,6 +22,7 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 - [Texture Commands](#texture-commands)
     - [brank_drawtexture](#-brank_drawtexture)
     - [brank_drawthumbnail](#-brank_drawthumbnail)
+    - [brank_exportthumbnail](#-brank_exportthumbnail)
     - [brank_erasetexture](#-brank_erasetexture)
     - [brank_browsetextures](#-brank_browsetextures-1)
 
@@ -85,6 +87,18 @@ This command draws a product thumbnail to the screen based on its product id.
 **Example Output:**
 
 ![](https://i.imgur.com/y2i4r7k.png/)
+
+### > brank_exportthumbnail
+
+This command renders a product thumbnail with an optional paint, and exports it to an imagine file. This is an experimental command as of right now, so the thumbnails it can export are locked to the body, topper, and antenna product slots.
+
+**Example Usage:**
+
+`brank_exportthumbnail 23 2 [PNG]`
+
+**Example Output:**
+
+![](https://i.imgur.com/4AJtxtp.png)
 
 ### > brank_erasetexture
 
