@@ -219,7 +219,7 @@ A full list of arguments for this command can be found [here.](https://github.co
 
 ### > brank_dump_inventory
 
-A full list of arguments for this command can be found [here](brank_dump_inventory), this command also accepts the same arguments as the [brank_dump_products ](/blob/main/README.md#-brank_dump_products) command.
+A full list of arguments for this command can be found [here](https://github.com/ItsBranK/DeveloperTools/blob/main/ARGUMENTS.md#onlineinventory-products), this command also accepts the same arguments as the [brank_dump_products ](/blob/main/README.md#-brank_dump_products) command.
 
 **Example Usage:**
 
