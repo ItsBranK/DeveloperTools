@@ -53,7 +53,7 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This setting is used to control whether you want to display the texture browser feature. Please see [here](#-brank_browsetextures-1) on how to use the texture browser.
 
 ### > brank_thumbnailscale
-**Possible Arguments:** -1 to the maximum resolution your screen can display.
+**Possible Arguments:** -1 all the way up to 8k.
 
 **Description:** The resolution scale to use when drawing product thumbnails, for example; `256 256` will render thumbnails at 256x256 resolution. Setting to -1 disables scaling entirely.
 
