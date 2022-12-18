@@ -1,5 +1,6 @@
 
 
+
 # ItsBranK's Developer Tools
 
 A collection of features and tools free to use for developers and organizations (BakkesMod Plugin).
@@ -20,11 +21,12 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
     - [brank_disable_replays](#-brank_disable_replays)
 
 - [Texture Commands](#texture-commands)
-    - [brank_drawtexture](#-brank_drawtexture)
-    - [brank_drawthumbnail](#-brank_drawthumbnail)
-    - [brank_exportthumbnail](#-brank_exportthumbnail)
-    - [brank_erasetexture](#-brank_erasetexture)
-    - [brank_browsetextures](#-brank_browsetextures-1)
+    - [brank_draw_texture](#-brank_draw_texture)
+    - [brank_draw_thumbnail](#-brank_draw_thumbnail)
+    - [brank_export_thumbnail](#-brank_export_thumbnail)
+    - [brank_export_thumbnail_slot](#-brank_export_thumbnail_slot)
+    - [brank_erase_texture](#-brank_erasetexture)
+    - [brank_browse_textures](#-brank_browse_textures-1)
 
 - [Dump Commands](#dumpexport-commands)
     - [brank_dump_functions](#-brank_dump_functions)
@@ -64,57 +66,69 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 
 # Texture Commands
 
-### > brank_drawtexture
+### > brank_draw_texture
 
 This command draws a texture to the screen based on its name.
 
 **Example Usage:**
 
-`brank_drawtexture Noise_Fire`
+`brank_draw_texture Noise_Fire`
 
 **Example Output:**
 
 ![](https://i.imgur.com/f0FZKSW.png/)
 
-### > brank_drawthumbnail
+### > brank_draw_thumbnail
 
 This command draws a product thumbnail to the screen based on its product id.
 
 **Example Usage:**
 
-`brank_drawthumbnail 32`
+`brank_draw_thumbnail 32`
 
 **Example Output:**
 
 ![](https://i.imgur.com/y2i4r7k.png/)
 
-### > brank_exportthumbnail
+### > brank_export_thumbnail
 
 This command renders a product thumbnail with optional paint, and exports it to an imagine file. This is an experimental command as of right now, so the thumbnails it can export are exclusive to the body, wheel, antenna, topper, and paint finish product slots. Optional image file formats are `[JPG], [PNG], [TGA], [BMP], [HDR]`.
 
 **Example Usage:**
 
-`brank_exportthumbnail 23 2 [PNG]`
+`brank_export_thumbnail 23 2 [PNG]`
 
 **Example Output:**
 
 ![](https://i.imgur.com/4AJtxtp.png)
 
-### > brank_erasetexture
+### > brank_export_thumbnail_slot
 
-This command stops/erases any texture on the screen that is currently being drawn by the commands [brank_drawtexture](/blob/main/README.md#-brank_drawtexture) and [brank_drawthumbnail.](#-brank_drawthumbnail)
+This command acts as an automation bridge for the [brank_export_thumbnail](/blob/main/README.md#-brank_export_thumbnail) command above. It takes in the same arguments, only instead of a product id it takes a slot index.
 
 **Example Usage:**
 
-`brank_erasetexture`
+`brank_export_thumbnail_slot 0 [JPG]`
 
-### > brank_browsetextures
+**Example Output:**
+
+![](https://i.imgur.com/CbIJuT9.png)
+
+### > brank_erase_texture
+
+This command stops/erases any texture on the screen that is currently being drawn by the commands [brank_draw_texture](/blob/main/README.md#-brank_draw_texture) and [brank_draw_thumbnail.](#-brank_draw_thumbnail)
+
+**Example Usage:**
+
+`brank_erase_texture`
+
+### > brank_browse_textures
 
 This command allows you to browse all textures currently loaded in the scene, you can use either the scroll wheel or the arrow keys to browse through them all.
 
 **Example Usage:**
 
-`brank_browsetextures 1`
+`brank_browse_textures 1`
 
 **Example Output:**
 
