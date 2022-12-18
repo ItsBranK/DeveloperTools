@@ -16,8 +16,8 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 <!-- TOC -->
 
 - [Settings](#settings)
-    - [brank_browsetextures](#-brank_browsetextures)
-    - [brank_thumbnailscale](#-brank_thumbnailscale)
+    - [brank_browse_textures](#-brank_browse_textures)
+    - [brank_thumbnail_scale](#-brank_thumbnail_scale)
     - [brank_disable_replays](#-brank_disable_replays)
 
 - [Texture Commands](#texture-commands)
@@ -49,12 +49,12 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 
 # Settings
 
-### > brank_browsetextures
+### > brank_browse_textures
 **Possible Arguments:** 0 or 1, for false or true.
 
 **Description:** This setting is used to control whether you want to display the texture browser feature. Please see [here](#-brank_browsetextures-1) on how to use the texture browser.
 
-### > brank_thumbnailscale
+### > brank_thumbnail_scale
 **Possible Arguments:** -1 all the way up to 8k.
 
 **Description:** The resolution scale to use when drawing product thumbnails, for example; `256 256` will render thumbnails at 256x256 resolution. Setting to -1 disables scaling entirely.
