@@ -53,12 +53,14 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** The resolution scale to use when drawing product thumbnails, for example; `256 256` will render thumbnails at 256x256 resolution. Setting to -1 disables scaling entirely.
 
 **Usage:** `brank_thumbnail_scale <width> <height>`
+
 **Example Usage:** `brank_thumbnail_scale 1024 1024`
 
 ### > brank_disable_replays
 **Description:** When set to true, this will disable the advertisements around the stadium when viewing replays; this will only work for replay files and not any other offline or online mode.
 
 **Usage:** `brank_disable_replays <0-1>`
+
 **Example Usage:** `brank_disable_replays 1`
 
 # Texture Commands
@@ -68,7 +70,9 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This command draws a texture to the screen based on its name.
 
 **Usage:** `brank_draw_texture <texture-name>`
+
 **Example Usage:** `brank_draw_texture Noise_Fire`
+
 **Example Output:**
 
 ![](https://i.imgur.com/f0FZKSW.png/)
@@ -78,7 +82,9 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This command draws a product thumbnail to the screen based on its product id.
 
 **Usage:** `brank_draw_thumbnail <product-id>`
+
 **Example Usage:** `brank_draw_thumbnail 32`
+
 **Example Output:**
 
 ![](https://i.imgur.com/y2i4r7k.png/)
@@ -88,7 +94,9 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This command renders a product thumbnail with optional paint, and exports it to an imagine file. This is an experimental command as of right now, so the thumbnails it can export are exclusive to the body, wheel, antenna, topper, and paint finish product slots. Optional image file formats are `[JPG], [PNG], [TGA], [BMP], [HDR]`.
 
 **Usage:** `brank_export_thumbnail <product-id> <paint-id-optional> <format-optional>`
+
 **Example Usage:** `brank_export_thumbnail 23 2 [PNG]`
+
 **Example Output:**
 
 ![](https://i.imgur.com/4AJtxtp.png)
@@ -98,7 +106,9 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This command acts as an automation bridge for the [brank_export_thumbnail](/blob/main/README.md#-brank_export_thumbnail) command above. It takes in the same arguments, only instead of a product id a slot index is used.
 
 **Usage:** `brank_export_thumbnail_slot <slot-index> <paint-id-optional> <format-optional>`
+
 **Example Usage:** `brank_export_thumbnail_slot 0 [JPG]`
+
 **Example Output:**
 
 ![](https://i.imgur.com/CbIJuT9.png
@@ -108,7 +118,9 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This command allows you to browse all textures currently loaded in the scene, you can use either the scroll wheel or the arrow keys to browse through them all.
 
 **Usage:** `brank_browse_textures <0-1>`
+
 **Example Usage:** `brank_browse_textures 1`
+
 **Example Output:**
 
 ![](https://i.imgur.com/bLl7vxp.png)
@@ -117,6 +129,7 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 **Description:** This command stops any texture on the screen that is currently being drawn by the commands [brank_draw_texture](/blob/main/README.md#-brank_draw_texture) and [brank_draw_thumbnail.](#-brank_draw_thumbnail).
 
 **Usage:** `brank_erase_texture`
+
 **Example Usage:** `brank_erase_texture`
 
 # Dump Commands
