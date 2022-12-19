@@ -91,7 +91,7 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 
 ### > brank_export_thumbnail
 
-**Description:** This command renders a product thumbnail with optional paint, and exports it to an imagine file. This is an experimental command as of right now, so the thumbnails it can export are exclusive to the body, wheel, antenna, topper, and paint finish product slots. Optional image file formats are `[JPG], [PNG], [TGA], [BMP], [HDR]`.
+**Description:** This command renders a product thumbnail with optional paint, and exports it to an imagine file. This is an experimental command as of right now, so the thumbnails it can export are exclusive to the body, wheel, antenna, topper, and paint finish product slots. Optional image file formats are `[JPG], [PNG], [TGA], [BMP]`.
 
 **Usage:** `brank_export_thumbnail <product-id> <paint-id-optional> <format-optional>`
 
