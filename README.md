@@ -46,7 +46,7 @@ If you found a bug, problem, or want to suggest a feature; please do so by creat
 # Settings
 
 ### > brank_thumbnail_scale
-**Description:** The resolution scale to use when drawing product thumbnails, for example; `256 256` will render thumbnails at 256x256 resolution. Setting to -1 disables scaling entirely.
+**Description:** The resolution scale to use when drawing product thumbnails, for example; `256 256` will render thumbnails at 256x256 resolution. Setting to -1 disables scaling entirely, and products will be drawn using their default scaling (usually its 256 or 512).
 
 **Usage:** `brank_thumbnail_scale <width> <height>`
 
