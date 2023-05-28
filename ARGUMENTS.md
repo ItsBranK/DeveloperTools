@@ -128,7 +128,6 @@
 | Arguments | Output Example |
 | ------ | ------ |
 | playlist_id | 3 |
-| playlist_name | UGCTrainingEditor (CodeRed Exclusive) |
 | playlist_title | Standard |
 | playlist_description | Ranked play with a team |
 | playlist_badge_title | |
